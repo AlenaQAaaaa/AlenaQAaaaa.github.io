@@ -13,7 +13,7 @@ body {
   margin: 40px 0 20px 0;
   display: flex;
 
-  width: 320px;
+  width: 350px;
   column-gap: 20px;
   row-gap: 10px;
   border-radius: 20px;
@@ -25,12 +25,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: center;
 }
 
 .header__avatar {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
 }
 
 .header__title {
@@ -43,7 +44,7 @@ body {
 }
 
 .header__subtitle {
-  color: #7d7d7f;
+  color: #7e7d7f;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
@@ -51,7 +52,7 @@ body {
 }
 
 .links {
-  width: 320px;
+  width: 350px;
   margin-bottom: 20px;
 }
 
@@ -60,6 +61,7 @@ body {
   line-height: 1.4;
   margin: 0 0 15px 0;
   font-family: "Helvetica Neue";
+  text-align: center;
 }
 
 .links__container {
